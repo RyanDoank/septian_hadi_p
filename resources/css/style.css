@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;
+    color: aqua;
+}
+h1.header{
+    color: aqua;
+    align-self: center;
+    text-align: center;
+}
