@@ -1,0 +1,154 @@
+:root
+{
+    --bg-color: #081b29;
+    --bg-color2: #1a1055;
+    --second-bg-color: #112e42;
+    --text-color: #fff;
+    --main-color: #00abf0;
+}
+
+.home_profile::after
+{
+    content: '';
+    width: 10px;
+    height: 57%;
+    background: linear-gradient(var(--main-color), var(--text-color));
+    position: absolute;
+    left: -40px;
+    top: 8px;
+}
+
+.about .btn-box a:hover
+{
+    color: var(--main-color);
+}
+
+.about .btn-box a::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--second-bg-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.about .btn-box a:hover::before
+{
+    width: 100%;
+}
+
+header a:hover, 
+header a.active{
+    color: var(--main-color);
+}
+
+.btn-sosmed a::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid var(--clr);
+    transition: 0.5s ease-in-out;
+    font-family: fontAwesome;
+    text-align: center;
+    line-height: 40px;
+    font-size: 3em;
+    color: var(--clr);
+    overflow: hidden;
+}
+.btn-sosmed a:hover::before
+{
+    height: 100%;
+}
+.btn-sosmed a:nth-child(1):before
+{
+    content: '\f16d';
+}
+.btn-sosmed a:nth-child(2):before
+{
+    content: '\f232';
+}
+.btn-sosmed a:nth-child(3):before
+{
+    content: '\f09a';
+}
+.btn-sosmed a:nth-child(4):before
+{
+    content: '\f041';
+}
+.btn-sosmed a .fa
+{
+    font-size: 3em;
+    -webkit-text-stroke: 1px var(--clr);
+    color: transparent;
+}
+.home::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(to top,var(--second-bg-color),transparent);
+    z-index: 1;
+}
+
+.education-box .education-content::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -1.1rem;
+    width: 2rem;
+    height: 2rem;
+    background: var(--main-color);
+    border-radius: 50%;
+}
+
+.education-content .content::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--second-bg-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.education-content .content:hover:before
+{
+    width: 100%;
+}
+
+.footer-iconTop a::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--bg-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.footer-iconTop a:hover:before
+{
+    width: 100%;
+}
+
+.footer-iconTop a:hover i
+{
+    color: var(--main-color);
+}
