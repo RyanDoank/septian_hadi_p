@@ -111,8 +111,11 @@
                 </div>
             </div>
         </div>
+        <div class="btn-box" style="margin-bottom: 2rem">
+            <a href="https://www.canva.com/design/DAFpFmhrfEM/RJQ4vqA6tt_88nvrCo7PFA/view?utm_content=DAFpFmhrfEM&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel" class="download-cv">Download CV</a>
+        </div>
         <div class="btn-box">
-            <a href="#" class="download-cv">Download CV</a>
+            <a href="https://www.canva.com/design/DAFpF130gbQ/yT_TW3XImwg2BmSuxD4s5Q/view?utm_content=DAFpF130gbQ&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel#1" class="download-cv">Portfolio</a>
         </div>
     </section>
     
